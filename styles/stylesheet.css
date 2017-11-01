@@ -1,13 +1,19 @@
 body {
   background-color: black;
+  font-family: sans-serif, serif, arial;
 }
 header h1 {
-  
+  padding: 20px 0 20px 0;
+  text-align: center;
 }
 .main-nav {
-  
+  background-color: cadetblue;
+  padding: 20px;
 }
-
+.content {
+    background-color: white;
+    margin: 0rem 10rem 0rem 10rem;
+}
 aside {
   
 }
