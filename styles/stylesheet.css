@@ -5,25 +5,40 @@ body {
 header h1 {
   padding: 20px 0 20px 0;
   text-align: center;
+  color: rgb(0, 153, 204);
 }
 .main-nav {
-  background-color: cadetblue;
-  padding: 20px;
+  padding: 10px;
+  background-color: rgb(0, 176, 230);
+  border: 0.5px solid #00ace6;
+}
+
+.main-nav li {
+    border-left: 0.5px solid #00ace6;
+    padding: 8px;
+    display: inline;
 }
 .content {
     background-color: white;
     margin: 0rem 10rem 0rem 10rem;
+
+    text-align: center;
 }
 aside {
-  
+    background-color: rgb(179, 237, 255);
+    padding: 20px;
+    float: left;
+    height: auto;
 }
 
 aside ul {
   
 }
 
-article {
-  
+article .main-article {
+  background-color: rgb(230, 249, 255);
+  float: right;
+  padding: 10px 20px 10px 20px;
 }
 
 figure {
@@ -31,5 +46,10 @@ figure {
 }
 
 footer {
-  /**/
+    clear: both;
+    padding: 20px;
+}
+footer img {
+    width: 2rem;
+    padding: 0px 10px 0px 10px;
 }
