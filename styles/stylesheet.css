@@ -10,14 +10,14 @@ header h1 {
 }
 .main-nav li {
   border: 1px solid #d9b3ff; 
-  padding: 8px 48px 8px 48px;
+  padding: 8px 49px 8px 48px;
   display: block;
   float: left;
   background-color: rgb(191, 128, 255);
 }
 .main-nav li:hover {
   border: 1px solid #d9b3ff; 
-  padding: 8px 48px 8px 48px;
+  padding: 8px 49px 8px 48px;
   display: block;
   float: left;
   background-color: rgb(163, 77, 255);
